@@ -20,15 +20,16 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include "config_common.h"
 
 /* USB Device descriptor parameter */
-#define VENDOR_ID 0x0481
+#define VENDOR_ID  0x0481
 #define PRODUCT_ID 0x0002
 #define DEVICE_VER 0x0001
-#define MANUFACTURER Tom Wong-Cornall/Ellipse/wcass/Purdea Andrei
-#define PRODUCT modelfkeyboards.com Brand New F62/F77 Model F Keyboard by Model F Labs
-#define DESCRIPTION QMK firmware for the modelfkeyboards.com reproduction of the IBM Model F keyboards
+#define MANUFACTURER  Model F Labs
+#define PRODUCT       F77 Model F Keyboard
+#define DESCRIPTION   QMK firmware for the modelfkeyboards.com reproduction IBM Model F \
+(components by Tom Wong-Cornall / Ellipse / wcass / Purdea Andrei)
 
 /* key matrix size */
-#define MATRIX_ROWS 8
+#define MATRIX_ROWS  8
 #define MATRIX_COLS 11
 // Note: physical column are 16, but only 11 are ever used. Column 0..9 match the physical column. Column 10 is physical column 15.
 
